@@ -16,6 +16,7 @@ do
 
     encontrado=0;
 
+    #El 0 es la cabecera, a partir del 1 están los datos
     for ((i=1; i<$numDatos; i++))
     do
         dato_actual=${datos[i]};

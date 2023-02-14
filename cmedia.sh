@@ -25,6 +25,4 @@ do
 done
 
     media=$((consumo_total / apariciones ));
-
     echo $media;
-fi

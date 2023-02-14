@@ -24,16 +24,6 @@ do
 
 done
 
-if [ $apariciones -eq 0 ]
-then
-
-    echo "La ciudad indicada no se encuentra";
-
-else
-
-    echo $apariciones;
-    echo $consumo_total;
-
     media=$((consumo_total / apariciones ));
 
     echo $media;
